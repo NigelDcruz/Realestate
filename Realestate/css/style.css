@@ -1,0 +1,414 @@
+ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*navigation*/
+
+#main-nav{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+#main-nav ul{
+	display: flex;
+	text-align: right;
+}
+
+#main-nav ul li{
+	flex-grow: 1;
+}
+
+
+#main-nav ul li a{
+	color: black;
+}
+
+
+/*Banner*/
+
+
+.banner{
+
+  
+    min-height: 500px;
+    background-image: url(../imgs/image1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    background-size: cover !important;
+    color: #fff;
+    
+}
+.banner-content {
+	margin-top: 172px;
+	text-align: center;
+	
+}
+
+.banner-content h2{
+	
+	font-size: 22px;
+	margin-bottom: 30px;
+	
+}
+
+
+.banner-content p{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.banner-content h2 + p{
+	
+	margin-bottom: 4px;
+}
+
+
+.but{
+	background-color:transparent;
+	
+	border: 1px solid #fff;
+	
+	border-radius: 5px;
+	
+}
+
+
+
+
+
+
+
+/*section1 lifestyle in budjet*/
+
+.head1,.head2,.head3,.head4{
+	text-align: center;
+	margin: 100px 0px;
+}
+
+
+
+.img img{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 30px;
+}
+.s1 {
+	text-align: center;
+}
+
+.s1 p{
+	font-size: 24px;
+	
+}
+
+.s1-button{
+	background-color: #F1C40F;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #F1C40F;
+	padding: 5px 15px;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+
+
+/*section2 our services*/
+
+.section2{
+	background-color: #FAFAFA;
+	
+}
+
+.s2 {
+	text-align: center;
+	margin: 30px 0px;
+	padding: 0px 80px;
+}
+
+
+
+.s2 p{
+	color: #949494;
+	font-size: 20px;
+	
+}
+
+
+
+
+/*section3 Latest Projects  */
+
+
+
+.s3 img{
+	width: 100%;
+}
+
+.s3 p{
+	font-size: 24px;
+	color: #F1C40F;
+}
+
+
+
+
+
+/*section4*/
+
+.s4-banner{
+
+  
+    min-height: 500px;
+    background-image: url(../imgs/image1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    background-size: cover !important;
+    color: #fff;
+    
+}
+
+
+.s4{
+	text-align: center;
+	color: #fff;
+	margin-top: 200px;
+}
+
+.s4 h2{
+	
+	font-size: 26px;
+}
+
+.s4 p{
+	
+	font-size: 32px;
+}
+
+
+
+/*section5 PROPERTIES FOR SALE*/
+
+
+.s5 .i{
+	width: 100%;
+}
+
+.s5-but {
+	background-color: #F1C40F;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #F1C40F;
+	padding: 5px 15px;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+
+.mag{
+	margin-left: 15px;
+}
+
+
+
+
+
+.grey{
+	background-color: #FAFAFA;
+	
+}
+
+
+
+
+
+
+
+/*section6 Gall*/
+
+
+.s6-g1 img{
+ width: 100%;  
+
+}
+
+.g1 {
+	margin-top: 30px;
+	height: 359px;
+	
+}
+
+
+
+
+
+/*section7*/
+
+
+
+
+.s7-but{
+	
+	background-color: #F1C40F;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #F1C40F;
+	padding: 5px 15px;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+
+.s7{
+	margin: 100px 0px;
+}
+
+.s7 img{
+	width: 100%;
+}
+
+.s7 h3{
+	
+	font-size: 36px;
+}
+
+.s7 p{
+	margin: 49px 0px 98px;
+	color: #949494;
+	font-size: 28px;
+}
+
+
+
+
+
+/*section8 best listings*/
+
+.s8 {
+	text-align: center;
+}
+
+.s8 p{
+	margin-top: 10px;
+}
+
+.sm img{
+	
+	display: inline;
+	width: 18px
+}
+
+.num {
+	margin:0px 10px 0px;
+	color: black;
+	font-size: 22px;
+}
+
+
+.s8 .pri {
+	font-size: 24px;
+	color: #F1C40F;
+	margin-top: 0px;
+}
+
+/*section 9 Featured Propertes*/
+
+.s9 {
+	
+	margin: 30px 0px;
+}
+
+.s9 .price {
+	font-size: 24px;
+	color: #F1C40F;
+	margin-top: 0px;
+}
+
+.s9 .ig{
+	width: 100%;
+}
+
+.s9 .im {
+	margin-left: 137px;
+    margin-right: 10px;
+}
+
+.s9 p{
+	    font-size: 22px;
+}
+
+
+
+
+/*footer*/
+
+
+.footer {
+	
+	margin-top: 100px;
+	
+	border-bottom: 1px solid grey;
+	
+	text-align: center;
+}
+
+
+.footer img{
+	
+	margin: 0px 20px;
+	
+}
+
+.addr{
+	margin-top: 30px;
+}
+
+.addr p{
+	margin: 30px 0px;
+	font-size: 20px;
+	color: darkgrey;
+}
+
+.copy {
+	    text-align: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.copy p {
+	
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
